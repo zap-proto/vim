@@ -20,6 +20,9 @@ Plugin 'cstrahan/vim-capnp'
 
 # Contributing
 
+> **Docs:** [ZAP for Vim / Neovim](https://zap-proto.dev/docs/sdks) · part of the [ZAP Protocol](https://zap-proto.io)
+
+
 If you have any ideas, feel free to open an issue and/or pull request!
 
 # Authors
