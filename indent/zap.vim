@@ -5,13 +5,13 @@ let b:did_indent = 1
 
 setlocal autoindent
 setlocal nolisp
-setlocal indentexpr=CapnpIndent(v:lnum)
+setlocal indentexpr=ZapIndent(v:lnum)
 
-if exists('*CapnpIndent')
+if exists('*ZapIndent')
 	finish
 endif
 
-function! CapnpIndent(lineNum)
+function! ZapIndent(lineNum)
 	let l:prevLineNum = prevnonblank(a:lineNum - 1)
 	if l:prevLineNum == 0
 		return 0

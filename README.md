@@ -1,21 +1,24 @@
 ## About
 
-Vim syntax highlighting, folding and (simple) indentation rules for [Cap'n
-Proto][capnp] schema files.
+Vim syntax highlighting, folding and (simple) indentation rules for ZAP schema
+files (`.zap`, and `.capnp` for back-compat).
+
+ZAP is a fork of [Cap'n Proto][capnp] that stays wire- and library-compatible,
+so this plugin highlights both `.zap` and `.capnp` schemas.
 
 ## Install
 
 ### Pathogen
 
 ```bash
-git clone https://github.com/cstrahan/vim-capnp.git ~/.vim/bundle/vim-capnp
+git clone https://github.com/zap-proto/vim.git ~/.vim/bundle/vim-zap
 ```
 
 ### Vundle
 
 Add the following to *$MYVIMRC* (after `call vundle#rc()`):
 ```vim
-Plugin 'cstrahan/vim-capnp'
+Plugin 'zap-proto/vim'
 ```
 
 # Contributing
